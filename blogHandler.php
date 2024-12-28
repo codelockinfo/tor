@@ -7,7 +7,7 @@ if ($_POST['action'] == 'insertBlog') {
     $author = $_POST['author'];
     $status = $_POST['status'];
     $blog_id = $blog->insertBlog($title, $author, $status);
-    echo json_encode(['success' => true, 'blog_id' => $blog_id]);
+    echo json_encode(['success' => true, 'blog_id' => $blog_id,"message" => "Blog inserted"]);
 }
 
 if ($_POST['action'] == 'insertArticle') {
@@ -23,7 +23,7 @@ if ($_POST['action'] == 'insertArticle') {
 
         if (move_uploaded_file($image['tmp_name'], $uploadFile)) {
             $article_id = $blog->insertArticle($blog_id, $uploadFile, $title, $description, $keywords);
-            echo json_encode(['success' => true, 'article_id' => $article_id]);
+            echo json_encode(['success' => true, 'article_id' => $article_id, "message" => "Article inserted"]);
         } else {
             echo json_encode(['success' => false, 'message' => 'Image upload failed']);
         }
