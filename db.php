@@ -13,7 +13,7 @@ class Database {
             $this->password = "";
             $this->dbname = "tor";
         } else {
-            $this->host = "happyeventsurat.com";  
+            $this->host = "localhost";  
             $this->username = "u402017191_tor";     
             $this->password = "Trendsonrun@99"; 
             $this->dbname = "u402017191_tor";     
