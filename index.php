@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/ajax.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
@@ -298,22 +299,6 @@
             By <a href="#">Codelock Solutions</a><span class="footer-name"></span>
         </div>
     </footer>
-    <script src="js/scripts.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.article-image-slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                dots: true
-            });
-        });
-        document.getElementById("menu-icon").addEventListener("click", function() {
-                var navMenu = document.getElementById("nav-menu");
-                navMenu.classList.toggle("active");
-            });
-    </script> 
 </body>
 </html>
 
