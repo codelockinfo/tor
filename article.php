@@ -30,14 +30,60 @@
             </div>
             <nav id="nav-menu" class="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Header Styles</a></li>
-                    <li><a href="#">Post Features</a></li>
-                    <li><a href="#">Features</a></li>
+                    <li>
+                        <a href="#">Home<i class="fa fa-caret-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="f-14">Home Classic with Sidebar</a></li>
+                            <li><a href="#" class="f-14">Home Minimal</a></li>
+                            <li><a href="#" class="f-14">Home Posts Slider</a></li>
+                            <li><a href="#" class="f-14">Home Slider w/Intro</a></li>
+                            <li><a href="#" class="f-14">Home Grid with Sidebar</a></li>
+                            <li><a href="#" class="f-14">Home Grid w/Intro</a></li>
+                            <li><a href="#" class="f-14">Home Posts Carousel</a></li>
+                            <li><a href="#" class="f-14">Home Advertising Area</a></li>
+                            <li><a href="#" class="f-14">Home Advertise Posts</a></li>
+                            <li><a href="#" class="f-14">AMP Home</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Header Styles<i class="fa fa-caret-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="f-14">Minimalist Style</a></li>
+                            <li><a href="#" class="f-14">Classic Style</a></li>
+                            <li><a href="#" class="f-14">Notice on Top</a></li>
+                            <li><a href="#" class="f-14">Advertising Area</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Post Features<i class="fa fa-caret-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="f-14">Post Formats</a></li>
+                            <li><a href="#" class="f-14">Fullwidth no Sidebar</a></li>
+                            <li><a href="#" class="f-14">Fullwidth With Sidebar</a></li>
+                            <li><a href="#" class="f-14">Classic With Sidebar</a></li>
+                            <li><a href="#" class="f-14">Vertical With Sidebar</a></li>
+                            <li><a href="#" class="f-14">Vertical no Sidebar</a></li>
+                            <li><a href="#" class="f-14">Post Pagination</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Features<i class="fa fa-caret-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="f-14">Style Guide</a></li>
+                            <li><a href="#" class="f-14">Gutenberg Blocks</a></li>
+                            <li><a href="#" class="f-14">Buttons</a></li>
+                            <li><a href="#" class="f-14">Accordions and Tabs</a></li>
+                            <li><a href="#" class="f-14">Alert Messages</a></li>
+                            <li><a href="#" class="f-14">Columns</a></li>
+                            <li><a href="#" class="f-14">Custom 404 page</a></li>
+                            <li><a href="#" class="f-14">Custom Author page</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contact</a></li>
                     <li class="search-item"><a href="#"><i class="fa fa-search"></i> Search</a></li>
                 </ul>
             </nav>
+
             <!-- <div class="button-container">
                 <button class="custom-button"><i class="fa-regular fa-bell"></i> Subscribe</button>
             </div> -->
@@ -86,10 +132,10 @@
                             <div>
                                 <h2 class="f-28 text-color">The Growing Popularity</h2>
                                 <p class="f-17 text-color">AI-generated caricatures have gained popularity in various sectors.</p>
-                                <p class="f-17 text-color">1.<span class="f-17 semi-dark-colr">Digital Portraits and Social Media:</span> “AI caricatures are the modern-day digital portraits, perfectly shareable on social media to capture the essence of individuals and moments.” – Sarah Johnson, Digital Artist
+                                <p class="f-17 text-color">1.<span class="custom-fw semi-dark-colr">Digital Portraits and Social Media:</span> “AI caricatures are the modern-day digital portraits, perfectly shareable on social media to capture the essence of individuals and moments.” – Sarah Johnson, Digital Artist
                                 </p>
-                                <p class="f-17 text-color">2.<span class="f-24 semi-dark-colr">Entertainment and Satire:</span> The entertainment industry is embracing AI caricatures for satirical content, political commentary, and caricature-themed shows.</p>
-                                <p class="f-17 text-color">3.<span class="f-24 semi-dark-colr">Personalized Merchandise:</span> AI caricatures are being used for personalized merchandise, from mugs and posters to caricature-themed clothing.</p>
+                                <p class="f-17 text-color">2.<span class="custom-fw semi-dark-colr">Entertainment and Satire:</span> The entertainment industry is embracing AI caricatures for satirical content, political commentary, and caricature-themed shows.</p>
+                                <p class="f-17 text-color">3.<span class="custom-fw semi-dark-colr">Personalized Merchandise:</span> AI caricatures are being used for personalized merchandise, from mugs and posters to caricature-themed clothing.</p>
                             </div>
                         </div>
                         <div>
@@ -104,7 +150,7 @@
                             <h3 class="f-24 text-color">Customization and Personalization</h3>
                             <p class="text-color f-17">The ability to <span class="author-name">customize color palettes</span> and stylistic elements is a unique feature of AI-generated caricatures. Artists and users can tailor the colors and styles to fit the subject’s personality and the intended message.</p>
                             <div>
-                                <h3 class="f-24 text-color">Conclusion</h3>
+                                <h3 class="f-28 text-color">Conclusion</h3>
                                 <p class="text-color f-17">In conclusion, AI has injected a burst of modernity and color into the world of caricatures.</p>
                                 <p class="text-color f-17">The digital revolution in caricature creation is pushing the boundaries of detail, realism, and stylistic diversity.</p>
                                 <p class="text-color f-17">AI-powered caricatures are gaining popularity in various sectors and offering new ways for artists and enthusiasts to explore this timeless art form.</p>
@@ -121,7 +167,7 @@
                                 <button class="prev-article f-17">Previous Article</button>
                             </div>
                             <div class="subscribe-section">
-                                <h2 class="f-32">Subscribe to our Newsletter</h2>
+                                <h2 class="f-34">Subscribe to our Newsletter</h2>
                                 <p class="f-17">Subscribe to our email newsletter to get the latest posts delivered right to your email.</p>
                                 <div class="subscribe-form">
                                     <input type="email" placeholder="Enter your email address" class="f-17" />
@@ -132,81 +178,72 @@
                     </div>
                     <div  class="second-section">
                         <div class="popular-articles popular-color">
-                            <h3 class="f-17 text-color">Popular Articles</h3>
+                            <h3 class="f-22 text-color">Popular Articles</h3>
                             <ul class="article-list">
                                 <li>
                                     <img src="image/pet13.webp" alt="Clock">
                                     <div class="article-info">
-                                        <h4 class="text-color f-17">More effective schedules in remote work</h4>
-                                        <p class="f-14">October 21, 2023</p>
+                                        <h4 class="text-color f-15">More effective schedules in remote work</h4>
+                                        <p class="f-12">October 21, 2023</p>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="image/pet14.webp" alt="AI">
                                     <div class="article-info">
-                                        <h4 class="text-color f-17">Artificial Intelligence in the generative image process</h4>
-                                        <p class="f-14">October 20, 2023</p>
+                                        <h4 class="text-color f-15">Artificial Intelligence in the generative image process</h4>
+                                        <p class="f-12">October 20, 2023</p>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="image/pet15.webp" alt="Sports">
                                     <div class="article-info">
-                                        <h4 class="text-color f-17">Some sports that will be affected by big-data advances</h4>
-                                        <p class="f-14">October 21, 2023</p>
+                                        <h4 class="text-color f-15">Some sports that will be affected by big-data advances</h4>
+                                        <p class="f-12">October 21, 2023</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                         <div class="popular-articles popular-color follw">
-                            <h3 class="f-17 text-color">Follow me!</h3>
+                            <h3 class="f-22 text-color">Follow me!</h3>
                             <div class="social-grid">
                                 <div class="social-item">
                                     <i class="fa-brands fa-twitter f-17"></i>
-                                    <span class="f-14 author-color">Twitter</span>
+                                    <span class="f-12 author-color">Twitter</span>
                                 </div>
                                 <div class="social-item">
                                     <i class="fab fa-facebook-f f-17" style="color: blue;"></i>
-                                    <span class="f-14 author-color">Facebook</span>
+                                    <span class="f-12 author-color">Facebook</span>
                                 </div>
                                 <div class="social-item">
                                     <i class="fab fa-instagram f-17" style="color: pink;"></i>
-                                    <span class="f-14 author-color">Instagram</span>
+                                    <span class="f-12 author-color">Instagram</span>
                                 </div>
                                 <div class="social-item">
                                     <i class="fab fa-twitch f-17" style="color: purple;"></i>
-                                    <span class="f-14 author-color">Twitch</span>
+                                    <span class="f-12 author-color">Twitch</span>
                                 </div>
                                 <div class="social-item">
                                     <i class="fab fa-whatsapp f-17" style="color: green;"></i>
-                                    <span class="f-14 author-color">WhatsApp</span>
+                                    <span class="f-12 author-color">WhatsApp</span>
                                 </div>
                                 <div class="social-item"> 
                                     <i class="fab fa-discord f-17" style="color: lightblue;"></i>
-                                    <span class="f-14 author-color">Discord</span>
+                                    <span class="f-12 author-color">Discord</span>
                                 </div>
                             </div>
                         </div>
                         <div class="popular-articles popular-color follw">
-                            <h3 class="f-17 text-color">Categories</h3>
+                            <h3 class="f-22 text-color">Categories</h3>
                             <div class="slider-container">
                                 <div class="slider" id="slider">
                                     <div class="slide">
                                         <img src="image/pet13.webp" alt="Category Image">
-                                        <div style="display: flex;">
-                                            <div class="category-title">Design</div>
-                                            <span class="author-name">~</span>
-                                            <div class="category-articles">9 Articles</div>
-                                        </div>
                                     </div>
                                     <div class="slide">
                                         <img src="image/pet14.webp" alt="Category Image">
-                                        <div class="category-title">Development</div>
-                                        <div class="category-articles">12 Articles</div>
                                     </div>
                                     <div class="slide">
                                         <img src="image/pet15.webp" alt="Category Image">
-                                        <div class="category-title">Marketing</div>
-                                        <div class="category-articles">7 Articles</div>
                                     </div>
                                 </div>
                             </div>
