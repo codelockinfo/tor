@@ -112,14 +112,14 @@ $(document).ready(function () {
                 <img src="${article.image}" alt="${article.title}">
             </div>
             <div class="article-content">
-                <h3>${article.title}</h3>
+                <a href="article?/id=${article.article_id}"><h3>${article.title}</h3></a>
                 <p><img src="image/avatar.webp" alt="Author" class="author-icon">
                     <span class="author-name">By <span class="name">${article.author} ~</span></span> ${article.created}
                 </p>
                 <p><strong>Blog:</strong> ${article.blog_name}</p>
                 <p class="article-description">${article.description}</p>
                 <div class="read-container">
-                    <a href="/article?/id=${article.article_id}" class="read-more">Read More</a>
+                    <a href="article?/id=${article.article_id}" class="read-more">Read More</a>
                     <p class="read-time"><i class="fas fa-book-open"></i> 1 min read</p>
                 </div>
             </div>

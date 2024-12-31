@@ -696,3 +696,6 @@ body{
     background-color: #ff2d77;
 }
 
+.article-content a{
+    text-decoration: none;
+}
