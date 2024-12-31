@@ -119,7 +119,7 @@ $(document).ready(function () {
                 <p><strong>Blog:</strong> ${article.blog_name}</p>
                 <p class="article-description">${article.description}</p>
                 <div class="read-container">
-                    <button class="read-more">Read More</button>
+                    <a href="/article?/id=${article.article_id}" class="read-more">Read More</a>
                     <p class="read-time"><i class="fas fa-book-open"></i> 1 min read</p>
                 </div>
             </div>
@@ -129,4 +129,11 @@ $(document).ready(function () {
     });
   }
   fetchArticles();
+});
+
+document.querySelector(".articles-container").addEventListener("click", (event) => {
+  if (event.target.classList.contains("read-more")) {
+      const articleId = event.target.getAttribute("data-id");
+      console.log("Article ID:", articleId);
+  }
 });
