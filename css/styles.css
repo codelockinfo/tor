@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1320px;
+    max-width: 1400px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -360,3 +360,318 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+
+/* ------------------------------ article page  -------------------------- */
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.popular-color {
+    background-color: #fff9f3;
+}
+.text-color{
+    color: #302d55;
+}
+.dark-color{
+    color: darkblue;
+}
+.semi-dark-colr{
+    color: #002050;
+}
+.author-color{
+    color: #666;
+    font-family: sans-serif;
+}
+.author-name {
+    color: #ff4c61; 
+}
+.fw{
+    font-weight: 700;
+}
+.f-17{
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.f-28{
+    font-size: 28px;
+    padding-top: 14.4px;
+    margin-bottom: 17.6px;
+    line-height: 1.4;
+}
+.f-24{
+    font-size: 24px;
+    padding-top: 20.8px;
+    margin-bottom: 14.4px;
+    line-height: 1.5;
+}
+
+
+
+.f-32{
+    font-size: 32px;
+}
+.main-article{
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 800;
+    padding: 4px;
+}
+.f-14 {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.article-meta a {
+    color: #ff4c61;
+    text-decoration: none;
+}
+
+.article-meta a:hover {
+    text-decoration: underline;
+}
+.nav-buttons {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.prev-article {
+    background: linear-gradient(90deg, #ff4c61, #ff6a3d);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.prev-article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.subscribe-section {
+    background: linear-gradient(90deg, #6366f1, #6a5af9);
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+.subscribe-form input {
+    padding: 12px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 300px;
+}
+.subscribe-form .subscribe-btn {
+    background: linear-gradient(90deg, #ff4c61, #ff6a3d);
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.subscribe-form .subscribe-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.article-popular {
+    display: flex;
+    gap: 130px;
+}
+
+.featured-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 10%;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 14%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popular-articles {
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 304px;
+}
+
+.article-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.article-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.article-list img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.author-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.read-time {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.follw{
+    margin-top: 15%;
+}
+.follow-title {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.social-item {
+    background-color: #fff5eb;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-item i {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.social-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider-container {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.category-articles {
+    font-size: 14px;
+    color: #666;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.slider-controls button {
+    background-color: #ff4c98;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.slider-controls button:hover {
+    background-color: #ff2d77;
+}
+
+/* .scroll-container {
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    height: 100vh;
+    overflow-y: scroll; 
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.second-section {
+    height: 100vh;
+    overflow-y: hidden; 
+    padding: 20px;
+    background-color: #ffffff;
+    transition: overflow 0.3s ease; 
+} */

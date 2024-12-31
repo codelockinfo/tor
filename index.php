@@ -50,7 +50,6 @@
     </div>
 
     <section class="articles-section">
-        <!-- Article Cards -->
         <div class="article-card">
             <div class="article-image">
                 <img src="image/pet1.jpg" alt="Nail Trimming">

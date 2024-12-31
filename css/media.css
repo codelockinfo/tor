@@ -1,0 +1,52 @@
+@media (max-width: 1120px) {
+    .second-section{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-article {
+        font-size: 36px;
+    }
+
+    .article-popular {
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    .featured-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .popular-articles {
+        width: 100%;
+    }
+
+    .f-17 {
+        font-size: 18px;
+    }
+
+    .f-17 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-article {
+        font-size: 28px;
+    }
+
+    .f-14 {
+        font-size: 12px;
+    }
+
+    .social-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .article-list img {
+        width: 60px;
+        height: 60px;
+    }
+}
