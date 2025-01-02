@@ -109,7 +109,7 @@ $(document).ready(function () {
       const articleHTML = `
             <div class="article-card">
             <div class="article-image">
-                <img src="${article.image}" alt="${article.title}">
+                <a href="article?/id=${article.article_id}"><img src="${article.image}" alt="${article.title}"></a>
             </div>
             <div class="article-content">
                 <a href="article?/id=${article.article_id}"><h3>${article.title}</h3></a>
